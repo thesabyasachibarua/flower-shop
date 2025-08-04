@@ -34,3 +34,11 @@
   font-weight: 900;
   font-style: normal;
 }
+
+/* background image */
+
+.background-image{
+    background-image: url(./flower-shop-assignment-resources/Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
