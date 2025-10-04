@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="pt-14 bg-[#E554731A]">
-     <div class="w-[80%] m-auto flex  items-center">
+     <div class="w-[80%] m-auto flex flex-col md:flex-row items-center">
         <div class="w-[60%] mr-20">
             <h1 class="lato-bold text-[4rem] text-base/20 mb-7">Let's make <br> beautiful flowers a <br> part of your life.</h1>
             <p class="lato-regular text-[#27272799] text-[18px] mb-7">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
@@ -22,7 +22,7 @@
         <section class="w-[80%] m-auto mb-[120px]">
             <h1 class="text-center lato-bold text-[40px] mb-[24px]">Our Featured Flowers</h1>
             <p class="text-center mb-12 lato-regular text-[18px] text-[#27272799]">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-            <div class="flex justify-around">
+            <div class="flex justify-around flex-col md:flex-row  gap-4">
                 <div class="">
             <div class="px-[75px] pt-[110px] mr-6 rounded-tl-[300px] rounded-tr-[300px] bg-[#A7216226]">
                 <img src="./flower-shop-assignment-resources/Asset/pngwing 6.png" alt="">
@@ -49,7 +49,7 @@
             
         </section>
 
-        <section class="flex justify-around w-[80%] m-auto bg-[#2727270D] rounded-[8px] mb-[128px]">
+        <section class="flex justify-around w-[80%] m-auto bg-[#2727270D] rounded-[8px] mb-[128px] hidden">
             <div>
                 <img class="px-[140px] pb-[24px] pt-[85px]" src="./flower-shop-assignment-resources/Asset/Group 57.png" alt="">
                 <h3 class="text-center mb-[85px]">Same Day Delivery. Click & Collect.</h3>
@@ -65,7 +65,7 @@
         </section>
 
         <section class="bg-[#E554730D] mb-[128px]">
-            <div class="w-[80%] m-auto flex justify-around items-center">
+            <div class="w-[80%] m-auto flex flex-col md:flex-row justify-around items-center">
             <div class="text-center">
                 <h1 class="lato-bold text-[40px] mb-[24px]">Hot Deal ! Sale Up To 25% <span class="text-[#E55473]">Off</span> </h1>
                 <p class="lato-regular text-[#27272799] text-[18px] mb-[32px]">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
@@ -80,15 +80,15 @@
         <section class="w-[80%] m-auto mb-[128px]">
             <h1 class="text-center lato-black text-[40px] mb-[24px]">Instagram</h1>
             <p class="text-center text-[#27272799] lato-regular text-[18px] mb-[48px]">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-            <div class="flex justify-around">
-                <img class="w-[280px] mr-[24px]" src="./flower-shop-assignment-resources/Asset/Flower 01.png" alt="">
-                <img class="w-[280px] mr-[24px]" src="./flower-shop-assignment-resources/Asset/Rectangle 4.png" alt="">
-                <img class="w-[280px] mr-[24px]" src="./flower-shop-assignment-resources/Asset/Rectangle 5.png" alt="">
-                <img class="w-[280px]" src="./flower-shop-assignment-resources/Asset/Rectangle 6.png" alt="">
+            <div class="flex justify-around flex-col lg:flex-row gap-5">
+                <img class="w-[280px] m-auto" src="./flower-shop-assignment-resources/Asset/Flower 01.png" alt="">
+                <img class="w-[280px] m-auto" src="./flower-shop-assignment-resources/Asset/Rectangle 4.png" alt="">
+                <img class="w-[280px] m-auto" src="./flower-shop-assignment-resources/Asset/Rectangle 5.png" alt="">
+                <img class="w-[280px] m-auto" src="./flower-shop-assignment-resources/Asset/Rectangle 6.png" alt="">
             </div>
         </section>
 
-        <section class="w-[80%] m-auto px-[287px] py-[112px] text-center mb-[128px] background-image">
+        <section class="w-[80%] m-auto px-[287px] py-[112px] text-center mb-[128px] background-image hidden">
             <h1 class="lato-black text-[40px] mb-[16px]">Get The Latest Deals</h1>
             <p class="mb-[48px] lato-regular text-[18px] text-[#27272799]">$30 coupon for first shopping</p>
             <div class=" flex">
@@ -98,7 +98,7 @@
         </section>
     </main>
     <footer>
-        <section class="px-[400px] py-[128px] bg-black">
+        <section class="pt-15 bg-black">
             <div class="w-[80%] m-auto text-center">
                 <h1 class="text-[#E55473] lato-black text-[48px] mb-[24px]">Flower<span class="text-white">Shop</span> </h1>
 
