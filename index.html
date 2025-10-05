@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind and Daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="pt-14 bg-[#E554731A]">
+    <header class="bg-[#E554731A]">
+        <section class="navbar sticky p-0">
+     <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
+        <li><a>Home</a></li>
+        <li><a>Products</a></li>
+        <li><a>Review</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl font-bold text-[#E55473]">FlowerShop <img class="max-w-[25px]"   src="./flower-shop-assignment-resources/Asset/Group 58.png" alt=""></a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 font-semibold">
+      <li><a>Home</a></li>
+      <li><a>Products</a></li>
+      <li><a>Review</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn bg-[#E55473] text-white hover:bg-[#9f0627]">Contact Us</a>
+  </div>
+</div>
+        </section>
      <div class="w-[80%] m-auto flex flex-col md:flex-row items-center">
         <div class="w-[60%] mr-20">
-            <h1 class="lato-bold text-[4rem] text-base/20 mb-7">Let's make <br> beautiful flowers a <br> part of your life.</h1>
+            <h1 class="lato-bold text-[4rem] text-base/20 mb-7 ">Let's make <br> beautiful flowers a <br> part of your life.</h1>
             <p class="lato-regular text-[#27272799] text-[18px] mb-7">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-            <button class="px-[40px] py-[20px] bg-[#E55473] text-white rounded-[10px] lato-bold">ShopNow</button>
+            <button class="px-[40px] py-[20px] bg-[#E55473] text-white rounded-[10px] lato-bold hover:bg-[#9f0627]">ShopNow</button>
         </div>
         <img class="h-[700px]" src="./flower-shop-assignment-resources/Asset/pngwing 10.png" alt="">
      </div>
@@ -36,40 +69,26 @@
                     <img src="./flower-shop-assignment-resources/Asset/pngwing 5.png" alt="">
                    
                 </div>
-                 <h3 class="text-center lato-bold text-xl text-[#272727] underline mt-8">Pink Flower Tree</h3>
+                 <h3 class="text-center lato-bold text-xl text-[#272727] underline mt-8">Mixed Flower Bouquet</h3>
                 </div>
                 <div>
                 <div class=" px-[70px] pt-[68px] rounded-tl-[300px] rounded-tr-[300px] bg-[#477D1126]">
                     <img src="./flower-shop-assignment-resources/Asset/pngwing 7.png" alt="">
                    
                 </div>
-                 <h3 class="mt-8 text-center lato-bold text-xl text-[#272727] underline">Pink Flower Tree</h3>
+                 <h3 class="mt-8 text-center lato-bold text-xl text-[#272727] underline">Yellow Flower Tree</h3>
                 </div>
                 </div>
             
         </section>
 
-        <section class="flex justify-around w-[80%] m-auto bg-[#2727270D] rounded-[8px] mb-[128px] hidden">
-            <div>
-                <img class="px-[140px] pb-[24px] pt-[85px]" src="./flower-shop-assignment-resources/Asset/Group 57.png" alt="">
-                <h3 class="text-center mb-[85px]">Same Day Delivery. Click & Collect.</h3>
-            </div>
-            <div >
-                <img class="px-[140px] pb-[24px] pt-[85px]" src="./flower-shop-assignment-resources/Asset/Group 58.png" alt="">
-                <h3 class="text-center mb-[85px]">Fresh Flowers. Local Growers.</h3>
-            </div>
-            <div class="">
-                <img class="px-[140px] pb-[24px] pt-[85px]" src="./flower-shop-assignment-resources/Asset/Group 59.png" alt="">
-                <h3 class="text-center mb-[85px]">24/7 Free Support.</h3>
-            </div>
-        </section>
 
         <section class="bg-[#E554730D] mb-[128px]">
             <div class="w-[80%] m-auto flex flex-col md:flex-row justify-around items-center">
             <div class="text-center">
                 <h1 class="lato-bold text-[40px] mb-[24px]">Hot Deal ! Sale Up To 25% <span class="text-[#E55473]">Off</span> </h1>
                 <p class="lato-regular text-[#27272799] text-[18px] mb-[32px]">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-                <button class="px-[40px] py-[20px] bg-[#E55473] text-white rounded-[10px] lato-bold">Sign Up</button>
+                <button class="px-[40px] py-[20px] bg-[#E55473] text-white rounded-[10px] lato-bold hover:bg-[#9f0627]">Sign Up</button>
             </div>
             <div>
                 <img src="./flower-shop-assignment-resources/Asset/pngwing 8.png" alt="">
@@ -87,21 +106,16 @@
                 <img class="w-[280px] m-auto" src="./flower-shop-assignment-resources/Asset/Rectangle 6.png" alt="">
             </div>
         </section>
-
-        <section class="w-[80%] m-auto px-[287px] py-[112px] text-center mb-[128px] background-image hidden">
-            <h1 class="lato-black text-[40px] mb-[16px]">Get The Latest Deals</h1>
-            <p class="mb-[48px] lato-regular text-[18px] text-[#27272799]">$30 coupon for first shopping</p>
-            <div class=" flex">
-            <input class="bg-white w-[700px] mr-[16px] rounded-[8px] p-[22px]" type="email" placeholder="enter your email here..." name="" id="">
-            <button class="px-[40px] py-[20px] bg-[#E55473] text-white rounded-[10px] lato-bold">Subscribe</button>
-            </div>
-        </section>
     </main>
     <footer>
         <section class="pt-15 bg-black">
             <div class="w-[80%] m-auto text-center">
                 <h1 class="text-[#E55473] lato-black text-[48px] mb-[24px]">Flower<span class="text-white">Shop</span> </h1>
-
+                <div class="">
+                    <i class="fa-brands fa-facebook text-white"></i>
+                    <i class="fa-brands fa-instagram text-white"></i>
+                    <i class="fa-brands fa-x-twitter text-white"></i>
+                </div>
                 <p class="lato-regular text-white text-[18px] mb-[32px]">
                     It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.
                 </p>
